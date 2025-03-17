@@ -30,20 +30,20 @@ const nextConfig = {
   output: 'export',
   // Configure static assets
   basePath: '',
-  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  assetPrefix: '',
   // Configure public directory
   publicRuntimeConfig: {
     staticFolder: '/public',
   },
   // Add rewrite rules for avatars
-  async rewrites() {
-    return [
-      {
-        source: '/avatars/:path*',
-        destination: '/public/avatars/:path*',
-      },
-    ];
-  },
+  // async rewrites() {
+  //   return [
+  //     {
+  //       source: '/avatars/:path*',
+  //       destination: '/public/avatars/:path*',
+  //     },
+  //   ];
+  // },
   // Cloudflare Pages optimizations
   experimental: {
     isrMemoryCacheSize: 0,
