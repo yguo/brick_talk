@@ -34,6 +34,12 @@ const nextConfig = {
       },
     ];
   },
+  // Cloudflare Pages specific configuration
+  output: 'standalone',
+  // Enable static exports for Cloudflare Pages
+  experimental: {
+    isrMemoryCacheSize: 0,
+  },
 }
 
 module.exports = nextConfig 
