@@ -17,6 +17,7 @@ const nextConfig = {
     minimumCacheTTL: 60,
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    unoptimized: true,
   },
   webpack(config) {
     config.module.rules.push({
@@ -25,14 +26,16 @@ const nextConfig = {
     });
     return config;
   },
-  // 配置静态资源前缀
+  // Cloudflare Pages specific configuration
+  output: 'export',
+  // Configure static assets
   basePath: '',
   assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
-  // 配置公共目录
+  // Configure public directory
   publicRuntimeConfig: {
     staticFolder: '/public',
   },
-  // 添加重写规则，将 /avatars/* 重定向到正确的路径
+  // Add rewrite rules for avatars
   async rewrites() {
     return [
       {
@@ -41,13 +44,12 @@ const nextConfig = {
       },
     ];
   },
-  // Cloudflare Pages specific configuration
-  output: 'standalone',
   // Cloudflare Pages optimizations
   experimental: {
     isrMemoryCacheSize: 0,
+    serverActions: true,
   },
-  // 优化构建输出
+  // Build optimizations
   poweredByHeader: false,
   generateEtags: true,
   compress: true,
