@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { FC } from 'react';
 import { SafeImage } from '@/components/SafeImage';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -11,6 +11,7 @@ import { useTrendingPodcasts, usePopularPodcasts } from '@/hooks/usePodcasts';
 import { useFeaturedExperts } from '@/hooks/useExperts';
 import { Expert } from '../types/expert';
 import '../styles/theme.css';
+import { QuoteHighlight } from '@/components/QuoteHighlight';
 
 const UserProfileSkeleton = () => (
   <div className="flex items-center gap-2">
@@ -223,11 +224,7 @@ const HomePage = () => {
                         </svg>
                         <span className="text-xs">{podcast.duration}</span>
                       </Button>
-                      <div className="w-full bg-yellow-100/30 px-2 py-1.5 rounded text-center">
-                        <span className="text-xs font-medium" style={{ background: 'linear-gradient(120deg, #fef08a 0%, #fef08a 100%)', backgroundRepeat: 'no-repeat', backgroundSize: '100% 50%', backgroundPosition: '0 85%' }}>
-                          {podcast.description.slice(0, 10)}...
-                        </span>
-                      </div>
+                      <QuoteHighlight text={podcast.description} />
                     </div>
 
                     {/* 右侧：内容和嘉宾信息 */}
