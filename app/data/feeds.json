@@ -1,0 +1,571 @@
+{
+  "trending_podcasts": [
+    {
+      "id": "tp1",
+      "title": "生成式AI模型的未来",
+      "author": {
+        "name": "陈博士",
+        "title": "AI研究院首席科学家",
+        "avatar": "/avatars/Notion Avatar.svg"
+      },
+      "duration": "32:15",
+      "type": "audio",
+      "publishedAt": "2024-03-14T10:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+      "description": "生成式AI领域的最新进展展示了在创建类人内容方面的显著进步。本期节目探讨了GPT-4、Claude和Gemini等模型背后的技术创新，讨论它们的能力、局限性以及潜在的未来发展。",
+      "url": "/podcasts/gen-ai-future.mp3",
+      "tags": ["人工智能", "机器学习", "研究"],
+      "experts": [
+        {
+          "name": "陈博士",
+          "avatar": "/avatars/Notion Avatar.svg",
+          "comment": "关于参数效率的讨论特别有见地。我想补充的是，最近关于混合专家架构的研究表明，在不成比例增加计算资源的情况下扩展这些模型是可行的。"
+        }
+      ],
+      "stats": {
+        "views": 12500,
+        "likes": 856,
+        "shares": 234
+      }
+    },
+    {
+      "id": "tp2",
+      "title": "AI监管：平衡创新与安全",
+      "author": {
+        "name": "王教授",
+        "title": "科技政策研究所所长",
+        "avatar": "/avatars/Notion Avatar (1).svg"
+      },
+      "duration": "45:30",
+      "type": "audio",
+      "publishedAt": "2024-03-12T14:30:00Z",
+      "cover": "https://images.unsplash.com/photo-1558346547-4439467bd1d5",
+      "description": "随着AI系统变得越来越强大和普及，全球各国政府正在制定监管框架以确保负责任的发展。本期节目探讨了欧盟AI法案、美国AI行政命令以及其他全球倡议。",
+      "url": "/podcasts/ai-regulation.mp3",
+      "tags": ["政策", "监管", "伦理"],
+      "experts": [
+        {
+          "name": "王教授",
+          "avatar": "/avatars/Notion Avatar (1).svg",
+          "comment": "欧盟和美国方法之间的比较突显了预防原则和创新优先思维之间的有趣张力。我认为最佳路径在两者之间，对高风险应用进行有针对性的监管，同时允许在低风险领域进行实验。"
+        }
+      ],
+      "stats": {
+        "views": 8900,
+        "likes": 645,
+        "shares": 189
+      }
+    },
+    {
+      "id": "tp3",
+      "title": "大模型训练实践",
+      "author": {
+        "name": "张工程师",
+        "title": "AI基础设施负责人",
+        "avatar": "/avatars/Notion Avatar (2).svg"
+      },
+      "duration": "38:45",
+      "type": "video",
+      "publishedAt": "2024-03-10T09:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
+      "description": "深入探讨大规模语言模型训练的技术细节，包括分布式训练策略、模型并行化、梯度检查点等关键技术。",
+      "url": "/podcasts/llm-training.mp4",
+      "tags": ["深度学习", "工程实践", "基础设施"],
+      "experts": [
+        {
+          "name": "张工程师",
+          "avatar": "/avatars/Notion Avatar (2).svg",
+          "comment": "模型训练效率和成本控制是当前大模型落地的关键挑战。"
+        }
+      ],
+      "stats": {
+        "views": 7500,
+        "likes": 520,
+        "shares": 180
+      }
+    },
+    {
+      "id": "tp4",
+      "title": "AI教育革新",
+      "author": {
+        "name": "李教授",
+        "title": "教育科技研究中心主任",
+        "avatar": "/avatars/Notion Avatar (3).svg"
+      },
+      "duration": "42:30",
+      "type": "audio",
+      "publishedAt": "2024-03-08T15:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1509062522246-3755977927d7",
+      "description": "探讨AI如何改变传统教育模式，包括个性化学习、智能辅导系统、教育资源分配等主题。",
+      "url": "/podcasts/ai-education.mp3",
+      "tags": ["教育", "科技", "创新"],
+      "experts": [
+        {
+          "name": "李教授",
+          "avatar": "/avatars/Notion Avatar (3).svg",
+          "comment": "AI不仅能提高教学效率，更重要的是能实现真正的因材施教。"
+        }
+      ],
+      "stats": {
+        "views": 6800,
+        "likes": 480,
+        "shares": 150
+      }
+    },
+    {
+      "id": "tp5",
+      "title": "AI安全与隐私保护",
+      "author": {
+        "name": "吴专家",
+        "title": "网络安全研究员",
+        "avatar": "/avatars/Notion Avatar (4).svg"
+      },
+      "duration": "36:45",
+      "type": "audio",
+      "publishedAt": "2024-03-07T11:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1563013544-824ae1b704d3",
+      "description": "探讨AI系统中的安全威胁和隐私保护策略，包括对抗性攻击、数据保护、模型安全等议题。",
+      "url": "/podcasts/ai-security.mp3",
+      "tags": ["安全", "隐私", "技术"],
+      "experts": [
+        {
+          "name": "吴专家",
+          "avatar": "/avatars/Notion Avatar (4).svg",
+          "comment": "安全和隐私是AI发展中不可忽视的关键问题，需要从技术和管理两个层面共同应对。"
+        }
+      ],
+      "stats": {
+        "views": 7200,
+        "likes": 510,
+        "shares": 165
+      }
+    },
+    {
+      "id": "tp6",
+      "title": "AI驱动的元宇宙",
+      "author": {
+        "name": "郑研究员",
+        "title": "元宇宙实验室主任",
+        "avatar": "/avatars/Notion Avatar (5).svg"
+      },
+      "duration": "41:20",
+      "type": "video",
+      "publishedAt": "2024-03-06T14:30:00Z",
+      "cover": "https://images.unsplash.com/photo-1614729939124-032d1e6c9945",
+      "description": "探索AI技术在元宇宙中的应用，包括虚拟人物生成、场景构建、社交互动等创新应用。",
+      "url": "/podcasts/ai-metaverse.mp4",
+      "tags": ["元宇宙", "虚拟现实", "创新"],
+      "experts": [
+        {
+          "name": "郑研究员",
+          "avatar": "/avatars/Notion Avatar (5).svg",
+          "comment": "AI将成为构建元宇宙的核心驱动力，为用户带来更真实、更丰富的虚拟体验。"
+        }
+      ],
+      "stats": {
+        "views": 8100,
+        "likes": 625,
+        "shares": 195
+      }
+    }
+  ],
+  "popular_podcasts": [
+    {
+      "id": "pp1",
+      "title": "AI伦理与社会影响",
+      "author": {
+        "name": "张教授",
+        "title": "伦理学研究中心主任",
+        "avatar": "/avatars/Notion Avatar (4).svg"
+      },
+      "duration": "1:20:00",
+      "type": "video",
+      "publishedAt": "2024-03-10T09:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+      "description": "探讨人工智能发展中的伦理问题，分析AI对社会、就业和教育的深远影响。重点关注AI决策的透明度、偏见消除和隐私保护等关键议题。",
+      "url": "/podcasts/ai-ethics.mp4",
+      "tags": ["伦理", "社会影响", "教育"],
+      "experts": [
+        {
+          "name": "张教授",
+          "avatar": "/avatars/Notion Avatar (4).svg",
+          "comment": "AI伦理不仅仅是技术问题，更是人类价值观和社会发展方向的选择。我们需要在发展AI的同时，守护人类的尊严和价值。"
+        }
+      ],
+      "stats": {
+        "views": 15600,
+        "likes": 1245,
+        "shares": 567
+      }
+    },
+    {
+      "id": "pp2",
+      "title": "深度学习进阶实践",
+      "author": {
+        "name": "李研究员",
+        "title": "AI实验室主任",
+        "avatar": "/avatars/Notion Avatar (5).svg"
+      },
+      "duration": "47:00",
+      "type": "audio",
+      "publishedAt": "2024-03-08T16:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb",
+      "description": "深入讲解深度学习的前沿算法和框架，帮助听众掌握核心技术。包括transformer架构的最新进展、自监督学习方法等热点话题。",
+      "url": "/podcasts/deep-learning.mp3",
+      "tags": ["深度学习", "算法", "实践"],
+      "experts": [
+        {
+          "name": "李研究员",
+          "avatar": "/avatars/Notion Avatar (5).svg",
+          "comment": "理论结合实践是掌握深度学习的关键。建议听众在学习理论的同时，多动手实践，参与开源项目。"
+        }
+      ],
+      "stats": {
+        "views": 9800,
+        "likes": 876,
+        "shares": 234
+      }
+    },
+    {
+      "id": "pp3",
+      "title": "AI创业实战",
+      "author": {
+        "name": "王创始人",
+        "title": "AI创业公司CEO",
+        "avatar": "/avatars/Notion Avatar.svg"
+      },
+      "duration": "55:20",
+      "type": "video",
+      "publishedAt": "2024-03-06T14:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1559136555-9303baea8ebd",
+      "description": "分享AI创业经验和教训，探讨商业模式创新、团队建设、融资策略等关键话题。",
+      "url": "/podcasts/ai-startup.mp4",
+      "tags": ["创业", "商业", "管理"],
+      "experts": [
+        {
+          "name": "王创始人",
+          "avatar": "/avatars/Notion Avatar.svg",
+          "comment": "技术是基础，但商业模式和市场理解才是成功的关键。"
+        }
+      ],
+      "stats": {
+        "views": 8200,
+        "likes": 720,
+        "shares": 290
+      }
+    },
+    {
+      "id": "pp4",
+      "title": "AI医疗创新",
+      "author": {
+        "name": "陈医生",
+        "title": "智慧医疗研究所所长",
+        "avatar": "/avatars/Notion Avatar (1).svg"
+      },
+      "duration": "49:15",
+      "type": "audio",
+      "publishedAt": "2024-03-04T10:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1576091160550-2173dba999ef",
+      "description": "探讨AI在医疗领域的创新应用，包括疾病诊断、药物研发、医疗影像等方向的最新进展。",
+      "url": "/podcasts/ai-healthcare.mp3",
+      "tags": ["医疗", "健康", "创新"],
+      "experts": [
+        {
+          "name": "陈医生",
+          "avatar": "/avatars/Notion Avatar (1).svg",
+          "comment": "AI将成为医生的得力助手，但永远不会完全替代医生的判断。"
+        }
+      ],
+      "stats": {
+        "views": 7400,
+        "likes": 650,
+        "shares": 180
+      }
+    },
+    {
+      "id": "pp5",
+      "title": "AI与可持续发展",
+      "author": {
+        "name": "孙博士",
+        "title": "可持续发展研究员",
+        "avatar": "/avatars/Notion Avatar (2).svg"
+      },
+      "duration": "38:30",
+      "type": "audio",
+      "publishedAt": "2024-03-02T09:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1497435334941-8c899ee9e694",
+      "description": "探讨AI在环境保护、气候变化、能源优化等可持续发展领域的应用。",
+      "url": "/podcasts/ai-sustainability.mp3",
+      "tags": ["可持续发展", "环保", "创新"],
+      "stats": {
+        "views": 6900,
+        "likes": 580,
+        "shares": 170
+      }
+    },
+    {
+      "id": "pp6",
+      "title": "AI艺术创作",
+      "author": {
+        "name": "周艺术家",
+        "title": "数字艺术工作室创始人",
+        "avatar": "/avatars/Notion Avatar (3).svg"
+      },
+      "duration": "44:15",
+      "type": "video",
+      "publishedAt": "2024-02-29T15:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8",
+      "description": "探索AI在艺术创作中的应用，包括图像生成、音乐创作、交互艺术等领域。",
+      "url": "/podcasts/ai-art.mp4",
+      "tags": ["艺术", "创意", "设计"],
+      "stats": {
+        "views": 7800,
+        "likes": 690,
+        "shares": 210
+      }
+    },
+    {
+      "id": "pp7",
+      "title": "AI与智慧城市",
+      "author": {
+        "name": "林工程师",
+        "title": "智慧城市项目总监",
+        "avatar": "/avatars/Notion Avatar (4).svg"
+      },
+      "duration": "52:00",
+      "type": "audio",
+      "publishedAt": "2024-02-27T10:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b",
+      "description": "讨论AI在城市规划、交通管理、环境监测等智慧城市应用场景。",
+      "url": "/podcasts/ai-smart-city.mp3",
+      "tags": ["智慧城市", "城市规划", "技术"],
+      "stats": {
+        "views": 7100,
+        "likes": 620,
+        "shares": 180
+      }
+    },
+    {
+      "id": "pp8",
+      "title": "AI与未来教育",
+      "author": {
+        "name": "黄教授",
+        "title": "教育创新研究中心主任",
+        "avatar": "/avatars/Notion Avatar (5).svg"
+      },
+      "duration": "46:30",
+      "type": "video",
+      "publishedAt": "2024-02-25T14:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1509062522246-3755977927d7",
+      "description": "探讨AI如何重塑未来教育模式，包括个性化学习、智能评估、教育资源分配等话题。",
+      "url": "/podcasts/ai-future-education.mp4",
+      "tags": ["教育", "创新", "技术"],
+      "stats": {
+        "views": 6500,
+        "likes": 550,
+        "shares": 160
+      }
+    },
+    {
+      "id": "pp9",
+      "title": "AI与金融科技",
+      "author": {
+        "name": "赵分析师",
+        "title": "金融科技研究主管",
+        "avatar": "/avatars/Notion Avatar.svg"
+      },
+      "duration": "49:45",
+      "type": "audio",
+      "publishedAt": "2024-02-23T09:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+      "description": "探讨AI在金融领域的应用，包括智能投顾、风险控制、反欺诈等创新实践。",
+      "url": "/podcasts/ai-fintech.mp3",
+      "tags": ["金融", "科技", "创新"],
+      "stats": {
+        "views": 7400,
+        "likes": 640,
+        "shares": 190
+      }
+    },
+    {
+      "id": "pp10",
+      "title": "AI与机器人技术",
+      "author": {
+        "name": "田工程师",
+        "title": "机器人研究所主任",
+        "avatar": "/avatars/Notion Avatar (1).svg"
+      },
+      "duration": "43:20",
+      "type": "video",
+      "publishedAt": "2024-02-21T15:00:00Z",
+      "cover": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
+      "description": "探索AI驱动的机器人技术发展，包括工业机器人、服务机器人、医疗机器人等应用。",
+      "url": "/podcasts/ai-robotics.mp4",
+      "tags": ["机器人", "自动化", "技术"],
+      "stats": {
+        "views": 6800,
+        "likes": 590,
+        "shares": 170
+      }
+    }
+  ],
+  "featured_experts": [
+    {
+      "id": "fe1",
+      "name": "陈博士",
+      "title": "AI研究院首席科学家",
+      "avatar": "/avatars/Notion Avatar.svg",
+      "bio": "在生成式AI和大规模语言模型领域有超过10年研究经验，发表论文50余篇，主持多个国家级重点研究项目。",
+      "expertise": ["生成式AI", "大语言模型", "机器学习"],
+      "social": {
+        "twitter": "https://twitter.com/dr_chen",
+        "linkedin": "https://linkedin.com/in/dr-chen"
+      }
+    },
+    {
+      "id": "fe2",
+      "name": "王教授",
+      "title": "科技政策研究所所长",
+      "avatar": "/avatars/Notion Avatar (1).svg",
+      "bio": "专注于AI政策研究和伦理规范制定，参与多个国际AI治理框架的制定，著有《AI治理之道》等著作。",
+      "expertise": ["AI政策", "科技伦理", "国际治理"],
+      "social": {
+        "twitter": "https://twitter.com/prof_wang",
+        "linkedin": "https://linkedin.com/in/prof-wang"
+      }
+    },
+    {
+      "id": "fe3",
+      "name": "李研究员",
+      "title": "AI实验室主任",
+      "avatar": "/avatars/Notion Avatar (2).svg",
+      "bio": "深度学习领域专家，主导开发了多个开源AI框架，在顶级会议发表论文30余篇。",
+      "expertise": ["深度学习", "计算机视觉", "开源框架"],
+      "social": {
+        "twitter": "https://twitter.com/researcher_li",
+        "github": "https://github.com/researcher-li"
+      }
+    },
+    {
+      "id": "fe4",
+      "name": "张工程师",
+      "title": "AI基础设施负责人",
+      "avatar": "/avatars/Notion Avatar (3).svg",
+      "bio": "专注于大规模AI系统架构设计和优化，拥有丰富的分布式训练和推理系统构建经验。",
+      "expertise": ["系统架构", "分布式计算", "性能优化"],
+      "social": {
+        "linkedin": "https://linkedin.com/in/engineer-zhang",
+        "github": "https://github.com/engineer-zhang"
+      }
+    },
+    {
+      "id": "fe5",
+      "name": "刘专家",
+      "title": "AI产品总监",
+      "avatar": "/avatars/Notion Avatar (4).svg",
+      "bio": "AI产品设计和用户体验专家，主导设计了多个广受欢迎的AI应用，著有《AI产品设计之道》。",
+      "expertise": ["产品设计", "用户体验", "AI应用"],
+      "social": {
+        "twitter": "https://twitter.com/expert_liu",
+        "linkedin": "https://linkedin.com/in/expert-liu"
+      }
+    },
+    {
+      "id": "fe6",
+      "name": "赵博士",
+      "title": "AI伦理研究员",
+      "avatar": "/avatars/Notion Avatar (5).svg",
+      "bio": "专注于AI伦理和社会影响研究，参与多个国际AI伦理准则的制定，著有《AI与人类未来》。",
+      "expertise": ["AI伦理", "社会影响", "技术哲学"],
+      "social": {
+        "twitter": "https://twitter.com/dr_zhao",
+        "linkedin": "https://linkedin.com/in/dr-zhao"
+      }
+    },
+    {
+      "id": "fe7",
+      "name": "钱教授",
+      "title": "AI医疗研究中心主任",
+      "avatar": "/avatars/Notion Avatar.svg",
+      "bio": "专注于AI医疗应用研究，在医学影像分析、智能诊断等领域有重要贡献。",
+      "expertise": ["医疗AI", "图像分析", "智能诊断"],
+      "social": {
+        "twitter": "https://twitter.com/prof_qian",
+        "linkedin": "https://linkedin.com/in/prof-qian"
+      }
+    },
+    {
+      "id": "fe8",
+      "name": "孙工程师",
+      "title": "AI芯片架构师",
+      "avatar": "/avatars/Notion Avatar (1).svg",
+      "bio": "专注于AI芯片设计和优化，在神经网络加速器架构设计方面有丰富经验。",
+      "expertise": ["芯片设计", "硬件加速", "架构优化"],
+      "social": {
+        "linkedin": "https://linkedin.com/in/engineer-sun",
+        "github": "https://github.com/engineer-sun"
+      }
+    },
+    {
+      "id": "fe9",
+      "name": "周研究员",
+      "title": "AI安全专家",
+      "avatar": "/avatars/Notion Avatar (2).svg",
+      "bio": "专注于AI系统安全研究，在对抗性攻击防御、隐私计算等方向有深入研究。",
+      "expertise": ["AI安全", "隐私计算", "对抗学习"],
+      "social": {
+        "twitter": "https://twitter.com/researcher_zhou",
+        "github": "https://github.com/researcher-zhou"
+      }
+    },
+    {
+      "id": "fe10",
+      "name": "吴教授",
+      "title": "AI教育创新专家",
+      "avatar": "/avatars/Notion Avatar (3).svg",
+      "bio": "致力于将AI技术应用于教育创新，开发了多个智能教育平台。",
+      "expertise": ["教育科技", "学习分析", "教育创新"],
+      "social": {
+        "twitter": "https://twitter.com/prof_wu",
+        "linkedin": "https://linkedin.com/in/prof-wu"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat1",
+      "name": "人工智能",
+      "slug": "ai",
+      "description": "探讨人工智能的最新进展、应用和影响",
+      "icon": "brain"
+    },
+    {
+      "id": "cat2",
+      "name": "机器学习",
+      "slug": "machine-learning",
+      "description": "深入机器学习算法、框架和实践",
+      "icon": "code"
+    },
+    {
+      "id": "cat3",
+      "name": "AI伦理",
+      "slug": "ai-ethics",
+      "description": "讨论AI发展中的伦理问题和社会影响",
+      "icon": "shield"
+    },
+    {
+      "id": "cat4",
+      "name": "AI应用",
+      "slug": "ai-applications",
+      "description": "探索AI在各行业的创新应用",
+      "icon": "zap"
+    },
+    {
+      "id": "cat5",
+      "name": "技术前沿",
+      "slug": "tech-frontier",
+      "description": "关注最前沿的技术发展和创新",
+      "icon": "trending-up"
+    }
+  ]
+} 

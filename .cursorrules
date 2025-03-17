@@ -1,0 +1,331 @@
+{
+  "name": "AI Podcast Website",
+  "description": "AI 播客网站项目配置规则",
+  "version": "1.0.0",
+  
+  "language": {
+    "typescript": {
+      "formatter": "prettier",
+      "formatterOptions": {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "printWidth": 100,
+        "tabWidth": 2,
+        "semi": true
+      },
+      "linter": "eslint",
+      "compilerOptions": {
+        "strict": true,
+        "target": "es2020",
+        "module": "esnext",
+        "jsx": "preserve",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "noEmit": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "incremental": true,
+        "baseUrl": ".",
+        "paths": {
+          "@/*": ["./src/*"]
+        }
+      }
+    },
+    "javascript": {
+      "formatter": "prettier",
+      "formatterOptions": {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "printWidth": 100,
+        "tabWidth": 2,
+        "semi": true
+      },
+      "linter": "eslint"
+    }
+  },
+  
+  "editor": {
+    "tabSize": 2,
+    "insertSpaces": true,
+    "rulers": [100],
+    "wordWrap": "off",
+    "trimTrailingWhitespace": true,
+    "insertFinalNewline": true,
+    "bracketPairColorization": true,
+    "formatOnSave": true,
+    "formatOnPaste": false,
+    "semanticHighlighting": true,
+    "linkedEditing": true,
+    "suggestSelection": "first",
+    "acceptSuggestionOnEnter": "on",
+    "quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    }
+  },
+  
+  "files": {
+    "exclude": [
+      "**/.git",
+      "**/.DS_Store",
+      "**/node_modules",
+      "**/.next",
+      "**/out",
+      "**/build",
+      "**/dist",
+      "**/coverage",
+      "**/.vercel",
+      "**/yarn-error.log",
+      "**/.env.local",
+      "**/.env.development.local",
+      "**/.env.test.local",
+      "**/.env.production.local"
+    ],
+    "associations": {
+      "*.tsx": "typescriptreact",
+      "*.ts": "typescript",
+      "*.jsx": "javascriptreact",
+      "*.js": "javascript",
+      "*.css": "css",
+      "*.scss": "scss",
+      "*.json": "json",
+      "*.md": "markdown",
+      "*.mdx": "mdx"
+    },
+    "watcherExclude": {
+      "**/node_modules/**": true,
+      "**/.git/**": true,
+      "**/.next/**": true
+    }
+  },
+  
+  "search": {
+    "exclude": [
+      "**/node_modules",
+      "**/.git",
+      "**/.next",
+      "**/out",
+      "**/build",
+      "**/dist",
+      "**/coverage",
+      "**/.vercel",
+      "**/yarn-error.log"
+    ]
+  },
+  
+  "terminal": {
+    "integrated": {
+      "shell": {
+        "osx": "/bin/zsh",
+        "linux": "/bin/bash",
+        "windows": "powershell.exe"
+      },
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  },
+  
+  "git": {
+    "enabled": true,
+    "autofetch": true,
+    "confirmSync": true,
+    "enableSmartCommit": true,
+    "suggestSmartCommit": true,
+    "autoStash": true
+  },
+  
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss",
+      "ms-vscode.vscode-typescript-next",
+      "styled-components.vscode-styled-components",
+      "mikestead.dotenv",
+      "streetsidesoftware.code-spell-checker",
+      "naumovs.color-highlight",
+      "eamodio.gitlens",
+      "ms-azuretools.vscode-docker",
+      "yoavbls.pretty-ts-errors",
+      "chakra-ui.chakra-ui-docs"
+    ]
+  },
+  
+  "snippets": {
+    "typescript": {
+      "React Functional Component": {
+        "prefix": "rfc",
+        "body": [
+          "import { FC } from 'react';",
+          "",
+          "interface ${1:ComponentName}Props {",
+          "  $2",
+          "}",
+          "",
+          "export const ${1:ComponentName}: FC<${1:ComponentName}Props> = (props) => {",
+          "  const { $3 } = props;",
+          "  ",
+          "  return (",
+          "    <div>",
+          "      $0",
+          "    </div>",
+          "  );",
+          "};",
+          "",
+          "export default ${1:ComponentName};"
+        ],
+        "description": "React Functional Component with TypeScript"
+      },
+      "React Hook": {
+        "prefix": "rhook",
+        "body": [
+          "import { useState, useEffect } from 'react';",
+          "",
+          "export function use${1:HookName}($2) {",
+          "  const [state, setState] = useState($3);",
+          "  ",
+          "  useEffect(() => {",
+          "    $0",
+          "    ",
+          "    return () => {",
+          "      // Cleanup",
+          "    };",
+          "  }, [$4]);",
+          "  ",
+          "  return {",
+          "    state",
+          "  };",
+          "}"
+        ],
+        "description": "React Custom Hook"
+      },
+      "Next.js Page": {
+        "prefix": "npage",
+        "body": [
+          "import { NextPage } from 'next';",
+          "import Head from 'next/head';",
+          "",
+          "const ${1:PageName}: NextPage = () => {",
+          "  return (",
+          "    <>",
+          "      <Head>",
+          "        <title>${2:Page Title}</title>",
+          "        <meta name=\"description\" content=\"${3:Page description}\" />",
+          "      </Head>",
+          "      <main>",
+          "        $0",
+          "      </main>",
+          "    </>",
+          "  );",
+          "};",
+          "",
+          "export default ${1:PageName};"
+        ],
+        "description": "Next.js Page Component"
+      },
+      "Chakra UI Component": {
+        "prefix": "chakra",
+        "body": [
+          "import { Box, Flex, Text, Heading } from '@chakra-ui/react';",
+          "",
+          "interface ${1:ComponentName}Props {",
+          "  $2",
+          "}",
+          "",
+          "export const ${1:ComponentName} = (props: ${1:ComponentName}Props) => {",
+          "  const { $3 } = props;",
+          "  ",
+          "  return (",
+          "    <Box p={4} shadow=\"md\" borderWidth=\"1px\" borderRadius=\"md\">",
+          "      <Heading size=\"md\" mb={2}>$4</Heading>",
+          "      <Text>$0</Text>",
+          "    </Box>",
+          "  );",
+          "};"
+        ],
+        "description": "Chakra UI Component"
+      }
+    }
+  },
+  
+  "ai": {
+    "codeCompletion": {
+      "enabled": true,
+      "model": "claude-3-sonnet-20240229"
+    },
+    "chat": {
+      "enabled": true,
+      "model": "claude-3-sonnet-20240229"
+    },
+    "contextSize": 10000,
+    "includeCommentsInContext": true
+  },
+  
+  "project": {
+    "structure": {
+      "src": {
+        "app": {
+          "description": "Next.js App Router 页面和路由",
+          "patterns": ["**/page.tsx", "**/layout.tsx", "**/loading.tsx", "**/error.tsx"]
+        },
+        "components": {
+          "description": "React 组件",
+          "patterns": ["**/*.tsx", "!**/page.tsx", "!**/layout.tsx"]
+        },
+        "hooks": {
+          "description": "React 自定义 Hooks",
+          "patterns": ["**/use*.ts"]
+        },
+        "lib": {
+          "description": "工具函数和第三方库封装",
+          "patterns": ["**/*.ts", "!**/use*.ts"]
+        },
+        "providers": {
+          "description": "React Context Providers",
+          "patterns": ["**/*provider.tsx", "**/*context.tsx"]
+        },
+        "styles": {
+          "description": "全局样式和主题配置",
+          "patterns": ["**/*.css", "**/*.scss", "**/theme.ts"]
+        },
+        "types": {
+          "description": "TypeScript 类型定义",
+          "patterns": ["**/*.d.ts", "**/types.ts"]
+        }
+      }
+    }
+  },
+  
+  "tasks": {
+    "dev": {
+      "command": "pnpm dev",
+      "description": "启动开发服务器"
+    },
+    "build": {
+      "command": "pnpm build",
+      "description": "构建生产版本"
+    },
+    "start": {
+      "command": "pnpm start",
+      "description": "启动生产服务器"
+    },
+    "lint": {
+      "command": "pnpm lint",
+      "description": "运行 ESLint 检查"
+    },
+    "test": {
+      "command": "pnpm test",
+      "description": "运行测试"
+    },
+    "format": {
+      "command": "pnpm format",
+      "description": "使用 Prettier 格式化代码"
+    }
+  }
+} 

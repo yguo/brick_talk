@@ -1,0 +1,160 @@
+{
+  "experts": [
+    {
+      "id": "1",
+      "name": "张三",
+      "title": "AI研究员",
+      "avatar": "/avatars/Notion Avatar.svg",
+      "bio": "专注于人工智能领域研究，在机器学习和深度学习方面有丰富经验。曾参与多个重要AI项目的研发工作。",
+      "podcastCount": 12,
+      "stats": {
+        "views": 25600,
+        "likes": 1200
+      }
+    },
+    {
+      "id": "2",
+      "name": "李四",
+      "title": "技术总监",
+      "avatar": "/avatars/Notion Avatar (1).svg",
+      "bio": "20年软件开发经验，擅长系统架构设计和团队管理。对云计算和微服务架构有深入研究。",
+      "podcastCount": 8,
+      "stats": {
+        "views": 18900,
+        "likes": 890
+      }
+    },
+    {
+      "id": "3",
+      "name": "王五",
+      "title": "产品专家",
+      "avatar": "/avatars/Notion Avatar (2).svg",
+      "bio": "专注于产品设计和用户体验，曾主导多个成功互联网产品的规划和落地。热衷于研究用户心理和行为分析。",
+      "podcastCount": 15,
+      "stats": {
+        "views": 32100,
+        "likes": 1560
+      }
+    },
+    {
+      "id": "4",
+      "name": "赵六",
+      "title": "区块链专家",
+      "avatar": "/avatars/Notion Avatar (3).svg",
+      "bio": "深耕区块链技术研究与应用，对Web3生态建设和去中心化应用有独到见解。致力于推动区块链技术的落地应用。",
+      "podcastCount": 6,
+      "stats": {
+        "views": 15800,
+        "likes": 720
+      }
+    },
+    {
+      "id": "5",
+      "name": "钱七",
+      "title": "安全架构师",
+      "avatar": "/avatars/Notion Avatar (4).svg",
+      "bio": "专注网络安全和系统架构，具有丰富的安全防护经验。对零信任架构和云原生安全有深入研究。",
+      "podcastCount": 9,
+      "stats": {
+        "views": 21300,
+        "likes": 980
+      }
+    },
+    {
+      "id": "6",
+      "name": "孙八",
+      "title": "数据科学家",
+      "avatar": "/avatars/Notion Avatar (5).svg",
+      "bio": "专注大数据分析和机器学习应用，在数据驱动决策方面有丰富经验。热衷于探索数据价值挖掘。",
+      "podcastCount": 11,
+      "stats": {
+        "views": 28400,
+        "likes": 1340
+      }
+    },
+    {
+      "id": "7",
+      "name": "周九",
+      "title": "IoT专家",
+      "avatar": "/avatars/Notion Avatar.svg",
+      "bio": "物联网技术专家，在智能硬件和嵌入式系统方面有深厚积累。致力于推动智能家居和工业物联网发展。",
+      "podcastCount": 7,
+      "stats": {
+        "views": 19200,
+        "likes": 850
+      }
+    },
+    {
+      "id": "8",
+      "name": "吴十",
+      "title": "前端架构师",
+      "avatar": "/avatars/Notion Avatar (1).svg",
+      "bio": "资深前端开发专家，对现代前端框架和工程化有深入研究。关注性能优化和用户体验提升。",
+      "podcastCount": 14,
+      "stats": {
+        "views": 31500,
+        "likes": 1480
+      }
+    },
+    {
+      "id": "9",
+      "name": "郑十一",
+      "title": "DevOps专家",
+      "avatar": "/avatars/Notion Avatar (2).svg",
+      "bio": "专注DevOps实践和工具链建设，在持续集成/部署方面经验丰富。推崇敏捷开发和自动化运维。",
+      "podcastCount": 10,
+      "stats": {
+        "views": 24600,
+        "likes": 1150
+      }
+    },
+    {
+      "id": "10",
+      "name": "马十二",
+      "title": "云原生专家",
+      "avatar": "/avatars/Notion Avatar (3).svg",
+      "bio": "专注于云原生技术栈，对容器化和微服务架构有深入研究。致力于推动企业云转型和现代化改造。",
+      "podcastCount": 13,
+      "stats": {
+        "views": 29800,
+        "likes": 1420
+      }
+    },
+    {
+      "id": "11",
+      "name": "林十三",
+      "title": "低代码平台专家",
+      "avatar": "/avatars/Notion Avatar (4).svg",
+      "bio": "专注于低代码平台开发和架构设计，致力于提升企业应用开发效率。对可视化搭建引擎有深入研究。",
+      "podcastCount": 5,
+      "stats": {
+        "views": 16700,
+        "likes": 780
+      }
+    },
+    {
+      "id": "12",
+      "name": "陈十四",
+      "title": "移动开发专家",
+      "avatar": "/avatars/Notion Avatar (5).svg",
+      "bio": "资深移动应用开发专家，对跨平台开发和性能优化有独特见解。关注移动端新技术和发展趋势。",
+      "podcastCount": 16,
+      "stats": {
+        "views": 33400,
+        "likes": 1580
+      }
+    },
+    {
+      "id": "13",
+      "name": "杨十五",
+      "title": "算法工程师",
+      "avatar": "/avatars/Notion Avatar.svg",
+      "bio": "专注于算法优化和工程化实现，在推荐系统和搜索引擎方面有丰富经验。热衷于研究前沿算法应用。",
+      "podcastCount": 9,
+      "stats": {
+        "views": 22500,
+        "likes": 1050
+      }
+    }
+  ]
+} 
