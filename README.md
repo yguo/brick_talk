@@ -1,6 +1,6 @@
-# AI Podcast Website
+# Brick Talk
 
-一个基于 Next.js 构建的 AI 播客网站，提供专家访谈、技术分享和知识传播的平台。
+一个基于 Next.js 构建的专家访谈平台，提供技术大咖访谈、知识分享和行业见解。
 
 ## 技术栈
 
@@ -25,7 +25,7 @@
 
 ```bash
 git clone [your-repository-url]
-cd AI_podcast2
+cd brick_talk
 ```
 
 2. 安装依赖
@@ -45,7 +45,7 @@ pnpm dev
 ## 项目结构
 
 ```
-AI_podcast2/
+brick_talk/
 ├── app/                    # Next.js 应用目录
 │   ├── components/        # React 组件
 │   ├── hooks/            # 自定义 Hooks
