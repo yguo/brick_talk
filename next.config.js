@@ -3,13 +3,20 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['localhost', 'images.unsplash.com'],
-    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
       },
+      {
+        protocol: 'https',
+        hostname: '*.pages.dev',
+      }
     ],
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 60,
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
   webpack(config) {
     config.module.rules.push({
@@ -20,7 +27,7 @@ const nextConfig = {
   },
   // 配置静态资源前缀
   basePath: '',
-  assetPrefix: '',
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '',
   // 配置公共目录
   publicRuntimeConfig: {
     staticFolder: '/public',
@@ -36,10 +43,15 @@ const nextConfig = {
   },
   // Cloudflare Pages specific configuration
   output: 'standalone',
-  // Enable static exports for Cloudflare Pages
+  // Cloudflare Pages optimizations
   experimental: {
     isrMemoryCacheSize: 0,
   },
+  // 优化构建输出
+  poweredByHeader: false,
+  generateEtags: true,
+  compress: true,
+  productionBrowserSourceMaps: false,
 }
 
 module.exports = nextConfig 
