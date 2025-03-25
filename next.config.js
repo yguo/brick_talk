@@ -26,8 +26,6 @@ const nextConfig = {
     });
     return config;
   },
-  // Cloudflare Pages specific configuration
-  output: 'export',
   // Configure static assets
   basePath: '',
   assetPrefix: '',
@@ -36,18 +34,13 @@ const nextConfig = {
     staticFolder: '/public',
   },
   // Add rewrite rules for avatars
-  // async rewrites() {
-  //   return [
-  //     {
-  //       source: '/avatars/:path*',
-  //       destination: '/public/avatars/:path*',
-  //     },
-  //   ];
-  // },
-  // Cloudflare Pages optimizations
-  experimental: {
-    isrMemoryCacheSize: 0,
-    serverActions: true,
+  async rewrites() {
+    return [
+      {
+        source: '/avatars/:path*',
+        destination: '/public/avatars/:path*',
+      },
+    ];
   },
   // Build optimizations
   poweredByHeader: false,

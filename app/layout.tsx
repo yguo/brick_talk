@@ -7,8 +7,8 @@ import './styles/theme.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'AI 播客',
-  description: '发现和收听最好的 AI 相关播客',
+  title: '砖家说 Pro',
+  description: '发掘你的渴求，找到你的答案',
 };
 
 export default function RootLayout({

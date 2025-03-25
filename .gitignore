@@ -16,7 +16,11 @@
 
 # misc
 .DS_Store
+**/.DS_Store
 *.pem
+*.swp
+*.swo
+*~
 
 # debug
 npm-debug.log*
@@ -25,6 +29,7 @@ yarn-error.log*
 pnpm-debug.log*
 
 # local env files
+.env
 .env*.local
 
 # vercel
@@ -32,4 +37,15 @@ pnpm-debug.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts 
+next-env.d.ts
+
+# database
+*.db
+*.sqlite
+*.sqlite3
+/app/lib/db/data/*
+!/app/lib/db/data/.gitkeep
+
+# cache
+.cache
+/cache 
